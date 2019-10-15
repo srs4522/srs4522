@@ -1,5 +1,5 @@
-#include<stdio.h>
-int partition(long int arr[],int start,int end)
+#include <stdio.h>
+int partition (long int arr[],int start,int end)
 {
 	int pivot=arr[end];//pivot initially set as last element
 	int p_Index=start;//partition index initially set as first index
@@ -19,7 +19,7 @@ int partition(long int arr[],int start,int end)
 	arr[end]=temp;
 	return p_Index;//returning the index of partition
 }
-void quick_sort(long int arr[],int p,int q)
+void quick_sort (long int arr[],int p,int q)
 {
 	if(p<q)//this will act as terminating case for recursion
 	{
