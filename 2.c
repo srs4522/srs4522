@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int selection_sort()
 {
 	long int a[20];int cmp=0;int swap=0;//cmp and swap are for number of comparisions and swap respectively
@@ -25,6 +25,6 @@ int selection_sort()
 }
 int main()
 {
-	selection_sort();//calling the sorting function 
+	selection_sort();//calling the sorting function here
 	return 0;
 }
