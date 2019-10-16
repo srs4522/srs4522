@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 int count=0;//count is for storing the number of times merge function is called
 void merge(long int arr[],int start,int mid,int end)
 {
